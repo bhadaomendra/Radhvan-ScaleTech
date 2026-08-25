@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://radhvan.com/sitemap.xml
+Sitemap: https://www.radhvan.com/sitemap.xml
