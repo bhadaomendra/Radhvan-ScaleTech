@@ -19,7 +19,7 @@ function initBrandRefresh() {
 
   const link = document.createElement('link');
   link.rel = 'stylesheet';
-  link.href = '/brand-refresh.css';
+  link.href = '/brand-refresh.css?v=2';
   link.dataset.brandRefresh = 'true';
   document.head.appendChild(link);
 }
