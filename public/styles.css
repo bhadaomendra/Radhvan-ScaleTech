@@ -1241,6 +1241,10 @@ button, input, select, textarea {
   height: 54px;
   width: auto;
   margin-bottom: 20px;
+  background-color: #FFFFFF;
+  padding: 6px 14px;
+  border-radius: 8px;
+  display: inline-block;
 }
 
 .footer-tagline {
