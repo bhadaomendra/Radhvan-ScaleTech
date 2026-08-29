@@ -853,6 +853,7 @@ button, input, select, textarea {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   padding: 28px 24px;
 }
 
@@ -862,6 +863,8 @@ button, input, select, textarea {
   width: auto;
   max-width: 85%;
   object-fit: contain;
+  margin: 0 auto;
+  display: block;
   mix-blend-mode: multiply;
 }
 
