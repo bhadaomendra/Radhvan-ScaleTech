@@ -238,6 +238,7 @@ button, input, select, textarea {
   height: 64px;
   width: auto;
   object-fit: contain;
+  mix-blend-mode: multiply;
   transition: height var(--transition-fast);
 }
 
@@ -844,24 +845,24 @@ button, input, select, textarea {
 
 .work-img-container,
 .venture-card-image-box {
-  height: 210px;
-  background-color: #F4F7FB;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  height: 200px;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid var(--bg-subtle);
   position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 32px 24px;
+  padding: 28px 24px;
 }
 
 .work-brand-logo,
 .venture-card-logo-img {
-  max-height: 95px;
+  max-height: 110px;
   width: auto;
   max-width: 85%;
   object-fit: contain;
-  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.04));
+  mix-blend-mode: multiply;
 }
 
 .work-content {
