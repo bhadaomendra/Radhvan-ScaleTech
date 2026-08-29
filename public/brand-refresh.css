@@ -1,27 +1,66 @@
-/* Radhvan Brand Family Refresh
-   Secondary brand colour shared with Radhvan Origins.
-   Orange remains the primary action colour; brown is used as a restrained secondary accent.
+/* Radhvan Brand Family Refresh & Dual-Venture System
+   Navy (#0A192F) + Orange (#F15A24) = Primary Technology & Trust Identity
+   Brown (#763C03) = Secondary Brand Family Accent (Radhvan Origins & Venture Highlights)
 */
+
 :root {
   --brand-brown: #763C03;
   --brand-brown-light: rgba(118, 60, 3, 0.08);
   --brand-brown-border: rgba(118, 60, 3, 0.18);
+  --brand-brown-hover: #5A2E02;
 }
 
 /* Brand-family accents: keep the technology-first Navy + Orange system intact. */
 .work-tag,
 .work-contrib span,
-.venture-badge {
+.venture-badge.badge-origins {
   color: var(--brand-brown);
 }
 
-.venture-badge {
+.venture-badge.badge-origins {
   background-color: var(--brand-brown-light);
+  border: 1px solid var(--brand-brown-border);
 }
 
+/* Hero Badge Accents */
+.hero-badge-scaletech {
+  border-color: rgba(241, 90, 36, 0.25);
+  background-color: rgba(241, 90, 36, 0.04);
+}
+.hero-badge-scaletech svg {
+  color: var(--orange);
+}
+
+.hero-badge-origins {
+  border-color: var(--brand-brown-border);
+  background-color: var(--brand-brown-light);
+  color: var(--navy-deep);
+}
+.hero-badge-origins svg {
+  color: var(--brand-brown);
+}
+
+/* Section Labels & Eyebrows */
+.section-label-brown {
+  color: var(--brand-brown) !important;
+}
+
+/* Hover Accent Borders */
 .work-card:hover,
 .venture-card:hover {
   border-color: var(--brand-brown-border);
 }
 
-/* Brown is intentionally not applied to primary CTA buttons, links, or core UI states. */
+/* Button Secondary Variant with Warm Brown Accent */
+.btn-outline-brown {
+  background-color: transparent;
+  color: var(--brand-brown);
+  border: 1px solid var(--brand-brown-border);
+}
+.btn-outline-brown:hover {
+  background-color: var(--brand-brown);
+  color: #FFFFFF;
+  border-color: var(--brand-brown);
+  transform: translateY(-2px);
+}
+

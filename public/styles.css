@@ -1357,3 +1357,125 @@ button, input, select, textarea {
     text-align: center;
   }
 }
+
+/* ==========================================================================
+   11. DUAL VENTURE SPOTLIGHT STYLES
+   ========================================================================== */
+.ventures-spotlight-section {
+  padding: 100px 0;
+  background-color: var(--bg-card-light);
+  border-top: 1px solid var(--bg-subtle);
+  border-bottom: 1px solid var(--bg-subtle);
+}
+
+.ventures-spotlight-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px;
+  margin-top: 48px;
+}
+
+@media (max-width: 992px) {
+  .ventures-spotlight-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.venture-card-scaletech,
+.venture-card-origins {
+  background-color: var(--bg-light);
+  border-radius: 20px;
+  padding: 40px;
+  border: 1px solid var(--bg-subtle);
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-normal);
+  position: relative;
+}
+
+.venture-card-scaletech:hover {
+  border-color: rgba(241, 90, 36, 0.3);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+
+.venture-card-origins:hover {
+  border-color: var(--brand-brown-border);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+
+.venture-card-header {
+  margin-bottom: 16px;
+}
+
+.venture-badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.badge-scaletech {
+  background-color: var(--orange-light);
+  color: var(--orange);
+  border: 1px solid rgba(241, 90, 36, 0.2);
+}
+
+.badge-origins {
+  background-color: var(--brand-brown-light);
+  color: var(--brand-brown);
+  border: 1px solid var(--brand-brown-border);
+}
+
+.venture-card-title {
+  font-size: 1.75rem;
+  color: var(--navy-deep);
+  font-weight: 800;
+}
+
+.venture-card-tagline {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 14px;
+}
+
+.venture-card-desc {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.venture-highlights {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: auto;
+}
+
+.venture-highlights li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--navy-deep);
+}
+
+.venture-highlights li svg {
+  color: var(--orange);
+  flex-shrink: 0;
+}
+
+.venture-highlights.highlights-origins li svg {
+  color: var(--brand-brown);
+}
+
