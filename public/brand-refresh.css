@@ -1,0 +1,27 @@
+/* Radhvan Brand Family Refresh
+   Secondary brand colour shared with Radhvan Origins.
+   Orange remains the primary action colour; brown is used as a restrained secondary accent.
+*/
+:root {
+  --brand-brown: #763C03;
+  --brand-brown-light: rgba(118, 60, 3, 0.08);
+  --brand-brown-border: rgba(118, 60, 3, 0.18);
+}
+
+/* Brand-family accents: keep the technology-first Navy + Orange system intact. */
+.work-tag,
+.work-contrib span,
+.venture-badge {
+  color: var(--brand-brown);
+}
+
+.venture-badge {
+  background-color: var(--brand-brown-light);
+}
+
+.work-card:hover,
+.venture-card:hover {
+  border-color: var(--brand-brown-border);
+}
+
+/* Brown is intentionally not applied to primary CTA buttons, links, or core UI states. */

@@ -3,6 +3,7 @@
    ========================================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
+  initBrandRefresh();
   initStickyHeader();
   initMobileDrawer();
   initSmoothScroll();
@@ -10,6 +11,18 @@ document.addEventListener('DOMContentLoaded', () => {
   initEnquiryForm();
   initModals();
 });
+
+/* Load the restrained Radhvan Origins-inspired secondary accent system. */
+function initBrandRefresh() {
+  const existing = document.querySelector('link[data-brand-refresh]');
+  if (existing) return;
+
+  const link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.href = '/brand-refresh.css';
+  link.dataset.brandRefresh = 'true';
+  document.head.appendChild(link);
+}
 
 /* Sticky Header Logic */
 function initStickyHeader() {
