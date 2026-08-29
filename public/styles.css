@@ -821,9 +821,15 @@ button, input, select, textarea {
 
 .work-cards-wrapper {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 36px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
   margin-top: 50px;
+}
+
+@media (max-width: 1024px) {
+  .work-cards-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .work-card {
@@ -865,6 +871,33 @@ button, input, select, textarea {
   margin: 0 auto;
   display: block;
   mix-blend-mode: multiply;
+}
+
+.project-icon-badge {
+  width: 72px;
+  height: 72px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-fast);
+}
+
+.project-icon-badge-confidential {
+  background-color: var(--navy-deep);
+  color: #FFFFFF;
+}
+
+.project-icon-badge-next {
+  background-color: var(--orange-light);
+  color: var(--orange);
+  border: 1px solid rgba(241, 90, 36, 0.2);
+}
+
+.work-card:hover .project-icon-badge {
+  transform: scale(1.08);
 }
 
 .work-content {
