@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initMobileDrawer();
   initSmoothScroll();
   initInsightFilters();
+  initFaqAccordion();
   initEnquiryForm();
   initModals();
 });
@@ -157,3 +158,32 @@ function initModals() {
     });
   });
 }
+
+/* FAQ Accordion Toggle */
+function initFaqAccordion() {
+  const faqItems = document.querySelectorAll('.faq-item');
+  if (!faqItems.length) return;
+
+  faqItems.forEach(item => {
+    const btn = item.querySelector('.faq-question-btn');
+    if (!btn) return;
+
+    btn.addEventListener('click', () => {
+      const isActive = item.classList.contains('active');
+
+      // Close other accordion items
+      faqItems.forEach(otherItem => {
+        otherItem.classList.remove('active');
+        const otherBtn = otherItem.querySelector('.faq-question-btn');
+        if (otherBtn) otherBtn.setAttribute('aria-expanded', 'false');
+      });
+
+      // Toggle current item
+      if (!isActive) {
+        item.classList.add('active');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+}
+

@@ -1447,6 +1447,80 @@ button, input, select, textarea {
 }
 
 /* ==========================================================================
+   9.5 FREQUENTLY ASKED QUESTIONS (FAQ)
+   ========================================================================== */
+.faq-section {
+  padding: 100px 0;
+  background-color: var(--bg-light);
+}
+
+.faq-accordion-wrapper {
+  max-width: 860px;
+  margin: 40px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.faq-item {
+  background-color: #FFFFFF;
+  border: 1px solid var(--bg-subtle);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+}
+
+.faq-item:hover {
+  border-color: rgba(241, 90, 36, 0.3);
+}
+
+.faq-question-btn {
+  width: 100%;
+  padding: 22px 28px;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--navy-deep);
+  cursor: pointer;
+  gap: 16px;
+}
+
+.faq-icon {
+  color: var(--orange);
+  transition: transform var(--transition-normal);
+  flex-shrink: 0;
+}
+
+.faq-item.active .faq-icon {
+  transform: rotate(180deg);
+}
+
+.faq-answer-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, padding 0.35s ease;
+  padding: 0 28px;
+}
+
+.faq-item.active .faq-answer-content {
+  max-height: 300px;
+  padding: 0 28px 24px 28px;
+}
+
+.faq-answer-content p {
+  font-size: 0.98rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+
+/* ==========================================================================
    10. CONTACT SECTION
    ========================================================================== */
 .contact-section {
