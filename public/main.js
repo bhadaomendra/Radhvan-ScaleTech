@@ -107,24 +107,52 @@ function initInsightFilters() {
   });
 }
 
-/* Project Enquiry Form Handling */
+/* Project Enquiry Form Handling — Google Sheets */
 function initEnquiryForm() {
   const form = document.getElementById('enquiryForm');
   const responseMsg = document.getElementById('formResponse');
 
   if (!form) return;
 
-  form.addEventListener('submit', (e) => {
+  const GOOGLE_SHEETS_ENDPOINT =
+    'https://script.google.com/macros/s/AKfycbyTX-0krczmj6j20Zah9TRi441-9D2YTvsy-eLGHXk2u_hfPa_FZ_4Xm7LqrjF8FyXA/exec';
+
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
     const submitBtn = form.querySelector('button[type="submit"]');
     const originalText = submitBtn.innerHTML;
 
+    const enquiryData = {
+      name: document.getElementById('userName')?.value.trim() || '',
+      email: document.getElementById('userEmail')?.value.trim() || '',
+      phone: document.getElementById('userPhone')?.value.trim() || '',
+      company: document.getElementById('userCompany')?.value.trim() || '',
+      service: document.getElementById('userService')?.value || '',
+      projectDetails: document.getElementById('projectDetails')?.value.trim() || '',
+      budget: document.getElementById('budgetRange')?.value || '',
+      timeline: document.getElementById('timeline')?.value || ''
+    };
+
     submitBtn.disabled = true;
     submitBtn.innerHTML = 'Sending Enquiry...';
 
-    // Simulate direct secure form dispatch
-    setTimeout(() => {
+    try {
+      /*
+       * text/plain keeps the request CORS-simple while allowing Apps Script
+       * to receive the JSON payload in e.postData.contents.
+       * no-cors makes the browser submission work cross-origin; the Apps Script
+       * endpoint handles the actual write to Google Sheets.
+       */
+      await fetch(GOOGLE_SHEETS_ENDPOINT, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: {
+          'Content-Type': 'text/plain;charset=UTF-8'
+        },
+        body: JSON.stringify(enquiryData)
+      });
+
       form.reset();
       submitBtn.disabled = false;
       submitBtn.innerHTML = originalText;
@@ -136,13 +164,30 @@ function initEnquiryForm() {
         responseMsg.style.backgroundColor = 'rgba(16, 185, 129, 0.1)';
         responseMsg.style.borderRadius = '8px';
         responseMsg.style.marginTop = '16px';
-        responseMsg.innerHTML = '✓ Thank you! Your enquiry has been received. Omendra Bhada will respond to your consultation request shortly.';
-        
+        responseMsg.innerHTML =
+          '✓ Thank you! Your enquiry has been received. Omendra Bhada will respond to your consultation request shortly.';
+
         setTimeout(() => {
           responseMsg.style.display = 'none';
         }, 8000);
       }
-    }, 1200);
+    } catch (error) {
+      console.error('Enquiry submission failed:', error);
+
+      submitBtn.disabled = false;
+      submitBtn.innerHTML = originalText;
+
+      if (responseMsg) {
+        responseMsg.style.display = 'block';
+        responseMsg.style.color = '#DC2626';
+        responseMsg.style.padding = '12px';
+        responseMsg.style.backgroundColor = 'rgba(220, 38, 38, 0.1)';
+        responseMsg.style.borderRadius = '8px';
+        responseMsg.style.marginTop = '16px';
+        responseMsg.innerHTML =
+          '✕ We could not submit your enquiry. Please try again or contact us directly.';
+      }
+    }
   });
 }
 
@@ -186,4 +231,3 @@ function initFaqAccordion() {
     });
   });
 }
-
