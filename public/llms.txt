@@ -1,32 +1,38 @@
-# Radhvan ScaleTech
+# Radhvan ScaleTech — Omendra Bhada
 
-> Strategic IT Solutions for a Digital World. IT Consulting, Custom Web Development, AI Automation, and Search Visibility (SEO, GEO, AEO) by Omendra Bhada.
+> Senior Web Developer Freelancer, Digital Marketing Freelancer, and SEO, AEO & GEO Freelance Specialist. 20+ Years of core technology experience. Founder of Radhvan ScaleTech & Radhvan Origins.
 
-## About Omendra Bhada
-Omendra Bhada is an IT Consultant, Web Developer, and Digital Solutions Architect with over 20+ years of technology experience. He is the Founder of Radhvan ScaleTech (core technology and digital consulting practice) and Founder of Radhvan Origins (functional wellness & biotechnology venture).
+## Professional Summary & Freelance Roles
+Omendra Bhada is an IT Consultant, senior Web Developer Freelancer, and Digital Marketing Freelancer with over 20+ years of technology experience. Available for direct freelance hiring, consulting engagements, and project execution worldwide and across India.
 
-- Website: https://www.radhvan.com/
-- Contact: contact@radhvan.com
-- Location: Jaipur, Rajasthan, India (Serving Clients Globally)
-- Social Profiles:
+- **Primary Website**: https://www.radhvan.com/
+- **Contact & Enquiries**: contact@radhvan.com
+- **Location**: Jaipur, Rajasthan, India (Serving Clients Globally)
+- **Social Profiles**:
   - LinkedIn: https://www.linkedin.com/in/omendrabhada
   - GitHub: https://github.com/omendrabhada
   - X / Twitter: https://twitter.com/omendrabhada
 
-## Core Practice & Ventures
-- **Radhvan ScaleTech**: Technology consultancy specializing in IT architecture, custom web engineering, AI workflow automation, and modern search optimization (SEO / GEO / AEO). https://www.radhvan.com/
-- **Radhvan Origins**: Entrepreneurial research-backed functional wellness and Cordyceps Militaris biotechnology venture founded by Omendra Bhada. https://radhvanorigins.com/
+## Freelance Services Offered
+1. **Web Developer & Web Developer Freelancer**:
+   - Custom web engineering, responsive business websites, single page websites, and scalable web platforms.
+   - Frontend and backend architecture, fast page load speeds, and conversion-optimized UI/UX design.
+   - Tech stacks: HTML5, CSS3, modern JavaScript, static site generation, responsive layouts, API integrations.
+2. **Digital Marketing Freelancer**:
+   - End-to-end digital marketing campaigns: Google Ads (Search, Display, Performance Max), Meta Ads (Facebook & Instagram).
+   - High-ROI lead generation, full-funnel customer acquisition, conversion tracking, and analytics setup.
+   - Digital growth strategy, brand positioning, and performance marketing for startups and growing enterprises.
+3. **SEO, AEO & GEO Freelancer**:
+   - **SEO (Search Engine Optimization)**: High-intent keyword targeting, technical on-page/off-page SEO, schema markup, and speed audits.
+   - **GEO (Generative Engine Optimization)**: Structuring entity graphs (`JSON-LD @graph`) and brand citations so that AI engines (ChatGPT, Perplexity, Gemini, Claude) cite and recommend your business.
+   - **AEO (Answer Engine Optimization)**: Formatting concise definitional QA blocks for voice search and AI search overviews.
+4. **AI & Workflow Automation**:
+   - Automated CRM data pipelines, lead routing, automated notification workflows, and smart chatbot triggers.
 
 ## Delivered Client Websites & Portfolio
 - **Radhvan Origins**: Research-driven functional wellness and Cordyceps Militaris biotechnology brand platform. https://radhvanorigins.com/
 - **Bliss Together**: Everyday wellness gummies brand platform in India featuring mobile-first performance, analytics, and search optimization. https://blisstogether.in/
 - **Sumoriya Organic**: Premier Cordyceps cultivation training, lab setup consultation, and agri-biotech platform based in Jaipur, India. https://sumoriyaorganic.com/
-
-## Services Offered
-1. **IT Consulting & Technical Strategy**: Cloud architecture, infrastructure scaling, systems administration, and pragmatic technology stack selection.
-2. **Custom Web Development & Engineering**: Fast, mobile-responsive, semantic, conversion-focused websites and web applications.
-3. **AI & Workflow Automation**: CRM integrations, automated lead capture and routing, AI-driven customer response systems.
-4. **SEO, GEO & AEO Optimization**: Search Engine Optimization, Generative Engine Optimization for LLM citations, and Answer Engine Optimization for voice & conversational search.
 
 ## Website Development Packages & Transparent Pricing
 - **One Page Website**: ₹7,500 — Ideal for landing pages, service showcases, or personal portfolios.
