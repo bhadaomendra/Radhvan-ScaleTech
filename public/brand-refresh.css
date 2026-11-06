@@ -64,3 +64,30 @@
   transform: translateY(-2px);
 }
 
+/* Button Secondary Variant with Forest Green Accent (Sumoriya Organic) */
+.btn-outline-green {
+  background-color: transparent;
+  color: #1B4D3E;
+  border: 1px solid rgba(27, 77, 62, 0.4);
+}
+.btn-outline-green:hover {
+  background-color: #1B4D3E;
+  color: #FFFFFF;
+  border-color: #1B4D3E;
+  transform: translateY(-2px);
+}
+
+/* Button Secondary Variant with Warm Coral Accent (Bliss Together) */
+.btn-outline-coral {
+  background-color: transparent;
+  color: #E07A5F;
+  border: 1px solid rgba(224, 122, 95, 0.5);
+}
+.btn-outline-coral:hover {
+  background-color: #E07A5F;
+  color: #FFFFFF;
+  border-color: #E07A5F;
+  transform: translateY(-2px);
+}
+
+
