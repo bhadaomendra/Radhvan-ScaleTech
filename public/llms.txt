@@ -1,0 +1,40 @@
+# Radhvan ScaleTech
+
+> Strategic IT Solutions for a Digital World. IT Consulting, Custom Web Development, AI Automation, and Search Visibility (SEO, GEO, AEO) by Omendra Bhada.
+
+## About Omendra Bhada
+Omendra Bhada is an IT Consultant, Web Developer, and Digital Solutions Architect with over 20+ years of technology experience. He is the Founder of Radhvan ScaleTech (core technology and digital consulting practice) and Founder of Radhvan Origins (functional wellness & biotechnology venture).
+
+- Website: https://www.radhvan.com/
+- Contact: contact@radhvan.com
+- Location: Jaipur, Rajasthan, India (Serving Clients Globally)
+- Social Profiles:
+  - LinkedIn: https://www.linkedin.com/in/omendrabhada
+  - GitHub: https://github.com/omendrabhada
+  - X / Twitter: https://twitter.com/omendrabhada
+
+## Core Practice & Ventures
+- **Radhvan ScaleTech**: Technology consultancy specializing in IT architecture, custom web engineering, AI workflow automation, and modern search optimization (SEO / GEO / AEO). https://www.radhvan.com/
+- **Radhvan Origins**: Entrepreneurial research-backed functional wellness and Cordyceps Militaris biotechnology venture founded by Omendra Bhada. https://radhvanorigins.com/
+
+## Delivered Client Websites & Portfolio
+- **Radhvan Origins**: Research-driven functional wellness and Cordyceps Militaris biotechnology brand platform. https://radhvanorigins.com/
+- **Bliss Together**: Everyday wellness gummies brand platform in India featuring mobile-first performance, analytics, and search optimization. https://blisstogether.in/
+- **Sumoriya Organic**: Premier Cordyceps cultivation training, lab setup consultation, and agri-biotech platform based in Jaipur, India. https://sumoriyaorganic.com/
+
+## Services Offered
+1. **IT Consulting & Technical Strategy**: Cloud architecture, infrastructure scaling, systems administration, and pragmatic technology stack selection.
+2. **Custom Web Development & Engineering**: Fast, mobile-responsive, semantic, conversion-focused websites and web applications.
+3. **AI & Workflow Automation**: CRM integrations, automated lead capture and routing, AI-driven customer response systems.
+4. **SEO, GEO & AEO Optimization**: Search Engine Optimization, Generative Engine Optimization for LLM citations, and Answer Engine Optimization for voice & conversational search.
+
+## Website Development Packages & Transparent Pricing
+- **One Page Website**: ₹7,500 — Ideal for landing pages, service showcases, or personal portfolios.
+- **Business Website**: ₹14,900 — 5 pages, mobile-first design, contact forms, foundational SEO.
+- **Business Plus (Recommended)**: ₹19,900 — 7 pages, custom UI/UX, integrated blog, SEO & GEO setup.
+- **Business Pro**: ₹27,500 — 10 pages, advanced architecture, speed optimization, complete search foundation.
+
+## Technical Insights & Guides
+- [How GEO & AEO Are Reshaping Digital Visibility Beyond Traditional Search](https://www.radhvan.com/insights/how-geo-aeo-reshaping-digital-visibility.html): Guide to brand entity citations in ChatGPT, Perplexity, Gemini, and Google AI Overviews.
+- [Choosing the Right IT Architecture for Sustainable Business Scaling](https://www.radhvan.com/insights/choosing-right-it-architecture.html): Enterprise stack selection and infrastructure scaling.
+- [Integrating Practical AI & Workflow Automation into Business Operations](https://www.radhvan.com/insights/integrating-practical-ai-automation.html): Pragmatic AI workflow integration for mid-market businesses.

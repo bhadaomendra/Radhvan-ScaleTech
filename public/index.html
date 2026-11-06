@@ -74,12 +74,12 @@
     "@graph": [
       {
         "@type": "Person",
-        "@id": "https://radhvan.com/#person",
+        "@id": "https://www.radhvan.com/#person",
         "name": "Omendra Bhada",
         "jobTitle": "IT Consultant, Web Developer & Digital Solutions Architect",
         "description": "Omendra Bhada is an experienced IT professional with over 20+ years in IT operations, web development, digital growth, AI automation, and technology strategy. Founder of Radhvan ScaleTech and Radhvan Origins.",
-        "url": "https://radhvan.com/",
-        "image": "https://radhvan.com/assets/omendra-bhada.png",
+        "url": "https://www.radhvan.com/",
+        "image": "https://www.radhvan.com/assets/omendra-bhada.png",
         "sameAs": [
           "https://radhvanorigins.com",
           "https://blisstogether.in/",
@@ -91,7 +91,7 @@
         "worksFor": {
           "@type": "Organization",
           "name": "Radhvan ScaleTech",
-          "url": "https://radhvan.com/"
+          "url": "https://www.radhvan.com/"
         },
         "knowsLanguage": ["English", "Hindi"],
         "knowsAbout": [
@@ -105,14 +105,14 @@
         ]
       },
       {
-        "@type": "Organization",
-        "@id": "https://radhvan.com/#organization",
+        "@type": ["Organization", "ProfessionalService"],
+        "@id": "https://www.radhvan.com/#organization",
         "name": "Radhvan ScaleTech",
         "founder": {
-          "@id": "https://radhvan.com/#person"
+          "@id": "https://www.radhvan.com/#person"
         },
-        "url": "https://radhvan.com/",
-        "logo": "https://radhvan.com/assets/radhvan-logo-light.png",
+        "url": "https://www.radhvan.com/",
+        "logo": "https://www.radhvan.com/assets/radhvan-logo-light.png",
         "slogan": "Strategic IT Solutions for a Digital World.",
         "description": "Technology and digital solutions practice providing IT consulting, custom web engineering, AI automation, SEO, GEO, AEO, and performance growth strategies.",
         "sameAs": [
@@ -130,37 +130,37 @@
       },
       {
         "@type": "WebSite",
-        "@id": "https://radhvan.com/#website",
-        "url": "https://radhvan.com/",
+        "@id": "https://www.radhvan.com/#website",
+        "url": "https://www.radhvan.com/",
         "name": "Omendra Bhada — Personal Portfolio & IT Consultancy",
         "publisher": {
-          "@id": "https://radhvan.com/#person"
+          "@id": "https://www.radhvan.com/#person"
         }
       },
       {
         "@type": "Service",
-        "@id": "https://radhvan.com/#service-it-consulting",
+        "@id": "https://www.radhvan.com/#service-it-consulting",
         "name": "IT Consulting & Technical Strategy",
-        "provider": { "@id": "https://radhvan.com/#organization" },
+        "provider": { "@id": "https://www.radhvan.com/#organization" },
         "description": "Strategic technology guidance, cloud architecture, system administration, and infrastructure scaling with 20+ years of IT experience."
       },
       {
         "@type": "Service",
-        "@id": "https://radhvan.com/#service-web-development",
+        "@id": "https://www.radhvan.com/#service-web-development",
         "name": "Custom Web Development & Engineering",
-        "provider": { "@id": "https://radhvan.com/#organization" },
+        "provider": { "@id": "https://www.radhvan.com/#organization" },
         "description": "Fast, responsive, secure business websites built for maximum conversion, accessibility, and search performance."
       },
       {
         "@type": "Service",
-        "@id": "https://radhvan.com/#service-geo-aeo",
+        "@id": "https://www.radhvan.com/#service-geo-aeo",
         "name": "GEO & AEO Optimization",
-        "provider": { "@id": "https://radhvan.com/#organization" },
+        "provider": { "@id": "https://www.radhvan.com/#organization" },
         "description": "Generative Engine Optimization (GEO) and Answer Engine Optimization (AEO) to maximize visibility across ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews."
       },
       {
         "@type": "FAQPage",
-        "@id": "https://radhvan.com/#faq",
+        "@id": "https://www.radhvan.com/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -176,6 +176,14 @@
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Radhvan ScaleTech is Omendra Bhada's core technology consultancy specializing in IT strategy, custom web development, AI automation, SEO, GEO, AEO, and digital growth."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What client websites has Radhvan ScaleTech delivered?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Radhvan ScaleTech has engineered and delivered high-performance digital platforms including Bliss Together (Everyday Wellness Gummies India), Sumoriya Organic (Cordyceps Cultivation & Agri-Biotech Platform), and Radhvan Origins (Functional Biotechnology Venture)."
             }
           },
           {
@@ -427,7 +435,7 @@
           <!-- Venture 1: Radhvan ScaleTech -->
           <div class="work-card">
             <div class="work-img-container">
-              <img src="/assets/radhvan-logo-light.png" alt="Radhvan ScaleTech Logo" class="work-brand-logo" />
+              <img src="/assets/radhvan-logo-light.png" alt="Radhvan ScaleTech Logo" class="work-brand-logo" loading="lazy" decoding="async" />
             </div>
             <div class="work-content">
               <span class="work-tag" style="color: var(--orange);">CORE TECHNOLOGY PRACTICE</span>
@@ -449,7 +457,7 @@
           <!-- Venture 2: Radhvan Origins -->
           <div class="work-card">
             <div class="work-img-container">
-              <img src="/assets/radhvan-origins-logo.png" alt="Radhvan Origins Logo" class="work-brand-logo" />
+              <img src="/assets/radhvan-origins-logo.png" alt="Radhvan Origins Logo" class="work-brand-logo" loading="lazy" decoding="async" />
             </div>
             <div class="work-content">
               <span class="work-tag" style="color: var(--brand-brown);">FOUNDATIONAL VENTURE</span>
@@ -1038,7 +1046,7 @@
           <!-- Project 1 — Radhvan Origins -->
           <div class="work-card">
             <div class="work-img-container">
-              <img src="/assets/radhvan-origins-logo.png" alt="Radhvan Origins Brand Website" class="work-brand-logo" />
+              <img src="/assets/radhvan-origins-logo.png" alt="Radhvan Origins Brand Website" class="work-brand-logo" loading="lazy" decoding="async" />
             </div>
             <div class="work-content">
               <span class="work-tag" style="color: var(--brand-brown);">Brand Website · Web Architecture · Digital Strategy</span>
@@ -1060,7 +1068,7 @@
           <!-- Project 2 — Bliss Together -->
           <div class="work-card">
             <div class="work-img-container">
-              <img src="/assets/bliss-together-logo.png" alt="Bliss Together — Everyday Wellness Gummies India" class="work-brand-logo" />
+              <img src="/assets/bliss-together-logo.png" alt="Bliss Together — Everyday Wellness Gummies India" class="work-brand-logo" loading="lazy" decoding="async" />
             </div>
             <div class="work-content">
               <span class="work-tag" style="color: #E07A5F;">E-Commerce & Wellness · Web Engineering · SEO</span>
@@ -1082,7 +1090,7 @@
           <!-- Project 3 — Sumoriya Organic -->
           <div class="work-card">
             <div class="work-img-container">
-              <img src="/assets/sumoriya-organic-logo.png" alt="Sumoriya Organic — Cordyceps Cultivation & Agri-Biotech Platform" class="work-brand-logo" />
+              <img src="/assets/sumoriya-organic-logo.png" alt="Sumoriya Organic — Cordyceps Cultivation & Agri-Biotech Platform" class="work-brand-logo" loading="lazy" decoding="async" />
             </div>
             <div class="work-content">
               <span class="work-tag" style="color: #1B4D3E;">Agri-Biotech & Cultivation · Web Platform · Local SEO</span>
@@ -1104,7 +1112,7 @@
           <!-- Project 4 — Business Website — Confidential Client -->
           <div class="work-card">
             <div class="work-img-container">
-              <img src="/assets/radhvan-logo-light.png" alt="Radhvan ScaleTech Delivered Project" class="work-brand-logo" />
+              <img src="/assets/radhvan-logo-light.png" alt="Radhvan ScaleTech Delivered Project" class="work-brand-logo" loading="lazy" decoding="async" />
             </div>
             <div class="work-content">
               <span class="work-tag">Website Development · UI/UX · SEO</span>
@@ -1202,7 +1210,7 @@
               <div style="display: flex; width: 100%; justify-content: space-between; align-items: center;">
                 <span class="venture-badge badge-origins">Venture</span>
               </div>
-              <img src="/assets/radhvan-origins-logo.png" alt="Radhvan Origins Logo" style="height: 42px; width: auto; object-fit: contain; margin-top: 4px;" />
+              <img src="/assets/radhvan-origins-logo.png" alt="Radhvan Origins Logo" style="height: 42px; width: auto; object-fit: contain; margin-top: 4px;" loading="lazy" decoding="async" />
             </div>
             <p class="venture-desc">
               An entrepreneurial venture founded by Omendra Bhada, dedicated to scientific research, evidence-based functional wellness, and biotechnology innovation.
@@ -1503,7 +1511,7 @@
       <div class="footer-main">
         
         <div>
-          <img src="/assets/radhvan-logo-dark.png" alt="Radhvan — Strategic IT Solutions for a Digital World." class="footer-brand-logo" />
+          <img src="/assets/radhvan-logo-dark.png" alt="Radhvan — Strategic IT Solutions for a Digital World." class="footer-brand-logo" loading="lazy" decoding="async" />
           <p class="footer-tagline">
             Strategic IT Solutions for a Digital World.
           </p>
